@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name": "SourceMod",
+			"cmd": ["spcomp", "-iD:/include", "-o$project_path/plugins/store/$file_base_name.smx", "$file"],
+			"selector": "source.sp"
+		}
+    ]
+}

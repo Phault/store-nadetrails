@@ -1,0 +1,66 @@
+
+{
+    "type": "nadetrails",
+    "categories": [
+        {
+            "display_name": "Nade Trails",
+            "description": "Magical trails that follow your grenades.",
+            "require_plugin": "nadetrails",
+            "web_description": null,
+            "web_color": "FFD700",
+            "items": [
+                {
+                    "name": "nadetrail_red",
+                    "display_name": "Red NadeTrail",
+                    "description": null,
+                    "web_description": null,
+                    "type": "nadetrails",
+                    "loadout_slot": "nadetrails",
+                    "price": "150",
+                    "attrs": {
+                        "material": "materials/sprites/laserbeam.vmt"
+						"color": [255,0,0,255]
+                    },
+                    "is_buyable": "1",
+                    "is_tradeable": "1",
+                    "is_refundable": "1",
+                    "expiry_time": null
+                },
+                {
+                    "name": "nadetrail_blue",
+                    "display_name": "Blue NadeTrail",
+                    "description": null,
+                    "web_description": null,
+                    "type": "nadetrails",
+                    "loadout_slot": "nadetrails",
+                    "price": "150",
+                    "attrs": {
+                        "material": "materials/sprites/laserbeam.vmt"
+						"color": [0,0,255,255]
+                    },
+                    "is_buyable": "1",
+                    "is_tradeable": "1",
+                    "is_refundable": "1",
+                    "expiry_time": null
+                }
+				{
+                    "name": "nadetrail_green",
+                    "display_name": "Green NadeTrail",
+                    "description": null,
+                    "web_description": null,
+                    "type": "nadetrails",
+                    "loadout_slot": "nadetrails",
+                    "price": "150",
+                    "attrs": {
+                        "material": "materials/sprites/laserbeam.vmt"
+						"color": [0,255,0,255]
+                    },
+                    "is_buyable": "1",
+                    "is_tradeable": "1",
+                    "is_refundable": "1",
+                    "expiry_time": null
+                }
+            ]
+        }
+    ]
+}
