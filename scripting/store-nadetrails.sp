@@ -33,7 +33,7 @@ public Plugin:myinfo =
 	author      = "Phault",
 	description = "NadeTrails component for [Store] based upon code from the Trails component by alongub",
 	version     = "1.1-alpha",
-	url         = ""
+	url         = "https://github.com/Phault/store-nadetrails"
 };
 
 /**
