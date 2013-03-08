@@ -31,8 +31,8 @@ The attrs field should look like:
     {
         "material": "materials/sprites/store/trails/8bitmushroom.vmt",
         "lifetime": 1,
-        "width": 15,
-        "endwidth": 6,
+        "width": 3,
+        "endwidth": 1,
         "fadelength": 1,
         "color": [255, 255, 255, 255]
     }

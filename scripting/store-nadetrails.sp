@@ -113,12 +113,12 @@ public LoadItem(const String:itemName[], const String:attrs[])
 	g_trails[g_trailCount][TrailWidth] = json_object_get_float(json, "width");
 
 	if (g_trails[g_trailCount][TrailWidth] == 0.0)
-		g_trails[g_trailCount][TrailWidth] = 15.0;
+		g_trails[g_trailCount][TrailWidth] = 3.0;
 
 	g_trails[g_trailCount][TrailEndWidth] = json_object_get_float(json, "endwidth"); 
 
 	if (g_trails[g_trailCount][TrailEndWidth] == 0.0)
-		g_trails[g_trailCount][TrailEndWidth] = 6.0;
+		g_trails[g_trailCount][TrailEndWidth] = 1.0;
 
 	g_trails[g_trailCount][TrailFadeLength] = json_object_get_int(json, "fadelength"); 
 
