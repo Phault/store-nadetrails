@@ -24,7 +24,7 @@ Download the `store-nadetrails.zip` archive from the plugin thread and extract t
 
 ### Adding More Trails
 
-Until the web panel for the store will be ready, you'll need to update the database directly to add more items. To do that, open your phpMyAdmin and duplicate one of the existing trails you have. Change `name`, `display_name`, `description` and `attrs` to customize the new trail. 
+You can use the web panel to add nadetrails. Open the web panel, navigate to Add New Item under the Items menu. In type and loadout_slot, type nadetrails. Change name, display_name, description and attrs to customize the new trail. 
 
 The attrs field should look like:
 
