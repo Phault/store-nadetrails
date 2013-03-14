@@ -1,16 +1,23 @@
 {
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"spcomp",
+				"-i$project_path/scripting/include",
+				"-o$project_path/plugins/store/$file_base_name.smx",
+				"$file"
+			],
+			"working_dir": "$project_path/scripting",
+			"name": "SourcePawn",
+			"selector": "source.sp"
+		}
+	],
 	"folders":
 	[
 		{
 			"path": "."
 		}
-	],
-	"build_systems":
-	[
-		{
-			"name": "SourceMod",
-			"cmd": ["spcomp", "-iD:/include", "-o$project_path/plugins/store/$file_base_name.smx", "$file"],
-			"selector": "source.sp"
-		}
-    ]
+	]
 }
